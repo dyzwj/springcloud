@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ZUUL-SERVER
+
+
+
+server:
+  port: 8280
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8260/eureka

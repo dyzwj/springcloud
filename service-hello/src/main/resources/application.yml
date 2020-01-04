@@ -1,0 +1,16 @@
+server:
+  port: 2100
+
+#服务名
+#服务消费者通过服务提供者的服务名进行服务调用
+spring:
+  application:
+    name: SERVICE-HELLO
+
+#表示要向哪些eureka server进行注册
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8260/eureka
+
+
