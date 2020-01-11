@@ -20,7 +20,6 @@ public class HelloController {
 
 
 
-//    private static Logger logger = LoggerFactory.getLogger(HelloController.class);
 
     @Value("${server.port}")
     private String serverPort;

@@ -28,4 +28,7 @@ public class MallController {
         return productService.loadByItemcode(itemcode);
     }
 
+
+
+
 }
